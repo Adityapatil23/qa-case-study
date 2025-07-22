@@ -58,7 +58,7 @@ public class Main {
                     By.xpath("//div[contains(@class,'directions-mode-step')]/div[@class='directions-step-description']"));
 
             if (steps.isEmpty()) {
-                System.out.println("⚠️ No driving instructions found.");
+                System.out.println("No driving instructions found.");
                 return;
             }
 
